@@ -1,2 +1,3 @@
 task 0 preprocessing
-task 2 compiling
+task 1 compiling
+task 2 assembling

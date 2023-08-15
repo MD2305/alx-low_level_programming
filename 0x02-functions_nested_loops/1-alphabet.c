@@ -7,10 +7,9 @@
 void print_alphabet(void)
 {
 int i;
-char str[26] = "abcdefghijklmnopqrstuvwxyz";
-for (i = 0; i < 26; i++)
+for (i = 97; i < 123; i++)
 {
-_putchar(str[i] + 'a');
+_putchar(i);
 }
 _putchar('\n');
 }

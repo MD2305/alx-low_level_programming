@@ -24,6 +24,5 @@ else
 {
 largest = c;
 }
-else if (
 return (largest);
 }

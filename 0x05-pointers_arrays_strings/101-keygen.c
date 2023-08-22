@@ -19,6 +19,6 @@ break;
 j = j + i;
 printf("%c", i);
 }
-printf("%c\n", (2772 - i));
+printf("%c\n", (2772 - j));
 return (0);
 }

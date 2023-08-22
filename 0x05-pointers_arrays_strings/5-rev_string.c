@@ -19,7 +19,7 @@ for (i = 0; i < (count - 1); i++)
 {
 for (j = i + 1; j > 0; j--)
 {
-pass = *(str + j);
+pass = *(st + j);
 *(st + j) = *(st + (j - 1));
 *(st + (j - 1)) = pass;
 }

@@ -12,7 +12,6 @@ while (*(dest + c) != '\0')
 {
 c++;
 }
-
 while (c2 >= 0)
 {
 *(dest + c) = *(src + c2);

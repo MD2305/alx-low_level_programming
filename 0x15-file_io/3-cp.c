@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <errno.h>
+#include "main.h"
 
 #define BUFFER_SIZE 1024
 

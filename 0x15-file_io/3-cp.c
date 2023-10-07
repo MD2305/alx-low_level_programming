@@ -6,7 +6,6 @@
 #include <errno.h>
 #include "main.h"
 
-#define BUFFER_SIZE 1024
 
 /**
  * print_error_and_exit - checks if files can be opened.
@@ -50,10 +49,10 @@ int main(int argc, char *argv[])
 		print_error_and_exit(99, "Error: Can't write to %s\n", file_to);
 	}
 
-	char buffer[BUFFER_SIZE];
+	char buffer[1024];
 	ssize_t bytes_read;
 
-	while ((bytes_read = read(fd_from, buffer, BUFFER_SIZE)) > 0)
+	while ((bytes_read = read(fd_from, buffer, 1024)) > 0)
 	{
 		if (write(fd_to, buffer, bytes_read) != bytes_read)
 		{
